@@ -1,0 +1,65 @@
+body{
+    background-color: 		rgb(224, 251, 243);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    background-color: rgb(173, 201, 230,0.5);
+    height: 60px;
+    position: fixed;
+    top: 0%;
+}
+.warpper{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    
+}
+.nome{
+    font-size: 30px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    align;
+    
+   
+
+}
+.navegacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+.textPrinc{
+    background-image: url(https://img.freepik.com/fotos-gratis/cor-de-fundo-digital-de-codigo-de-dados-binarios-papel-de-parede-digital_451486-6.jpg?w=740);
+    background-size: contain;
+    height: 150px;
+    
+}
+.cont-img{
+    width: 130px;
+    height: 130px;  
+    border-radius: 50%;
+    border: solid blue; 
+    overflow: hidden;
+
+}
+img{
+    width: 100%;
+    object-fit: cover;
+    
+}
+.subMenus{
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
